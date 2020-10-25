@@ -1,4 +1,4 @@
-# logistic_regression_practice
+# pytorch basics
 
 Logistic Regression from Scratch with:
 - Linear, Sigmoid and Loss Layers implemented with both forward and backward
