@@ -1,8 +1,17 @@
-## custom logistic regression
+## pytorch basics
 
 Logistic Regression from Scratch with:
-- Linear, Sigmoid, and loss layers as custom torch.autograd.Functions
-- Gradient checking using torch.autograd.gradcheck
-- SGD optimizer as custom torch.optim.Optimizer
-- Toy dataset and dataloader using sklearn.make_classification, torch.utils.dataDataset, torch.utils.dataDatase
-- CPU only
+- custom autograd functions (manual forward and backward)
+- custom simple SGD optimizer
+- dataset. dataloader
+- cpu only
+
+Cuda Experiments
+- memory monitoring
+- synchronization
+- TODO: profiling tools
+
+Simple MLP
+- GPU training
+- Distributed DataParallel training
+- Readings to understand distributed model training paradigms
