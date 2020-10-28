@@ -209,12 +209,7 @@ def train(gpu, args):
         num_replicas=args.world_size,
         rank=rank
     )
-#     valid_sampler = torch.utils.data.distributed.DistributedSampler(
-#         validation_set,
-#         num_replicas=args.world_size,
-#         rank=rank
-#     )    
-    
+
     # DDP: Use sampler and don't shuffle the usual way
     # Note: with batch size, num_workers=2 is slower.
     training_generator = torch.utils.data.DataLoader(
