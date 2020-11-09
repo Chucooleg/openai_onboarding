@@ -1,6 +1,6 @@
 ## pytorch basics
 
-Logistic Regression from Scratch with:
+Logistic Regression
 - custom autograd functions (manual forward and backward)
 - custom simple SGD optimizer
 - dataset. dataloader
