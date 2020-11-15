@@ -1,6 +1,6 @@
 ## pytorch basics
 
-[OpenAI Scholar Blog Post](https://wordpress.com/view/bitbybitworks.wordpress.com)
+[OpenAI Scholar Blog](https://wordpress.com/view/bitbybitworks.wordpress.com)
 
 Logistic Regression
 - custom autograd functions (manual forward and backward)
