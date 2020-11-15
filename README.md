@@ -1,5 +1,3 @@
-## pytorch basics
-
 [OpenAI Scholar Blog](https://wordpress.com/view/bitbybitworks.wordpress.com)
 
 Logistic Regression
